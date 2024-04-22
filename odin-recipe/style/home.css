@@ -57,23 +57,27 @@ div img {
     background-color: rgb(217, 217, 217);
 }
 
-.cf {
-
-}
 
 #footer {
     display: flex;
     flex-wrap: wrap;
+    align-self: center;
+    align-items: center;
+    justify-content: space-between;
     background-color:rgb(153, 189, 152);
     position: absolute;
+    padding: 5px;
     width: 100%;
-    margin: auto;
     bottom: 0;
     height: 2.5rem;
+
 }
-button {
-    border-radius: 15px;
+
+#copy {
+color: rgba(70, 80, 76, 0.179);
+
 }
+
 
 
 
